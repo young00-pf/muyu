@@ -691,7 +691,7 @@ strong {
     top: 0;
     left: 100vw;
     width: 50vw;
-    height: 100vw;
+    height: 100vh;
     background-color: #FFF9F3;
     font-family: 'Athena';
     font-size: 26px;
@@ -1040,3 +1040,4 @@ padding: 5px 6px 5px 10px;
   width:60%;
 }
 }
+
