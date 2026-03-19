@@ -692,7 +692,7 @@ strong {
     top: 0;
     left: 100vw;
     width: 70vw;
-    height: 100%;
+    height: 100vh;
     background-color: #FFF9F3;
     font-family: 'Athena';
     font-size: 26px;
@@ -780,8 +780,8 @@ strong {
 }
 
 .page-number {
-  top: 91%;
-  right: 3%;
+  top: 90%;
+  right: 2.6%;
   font-size: 16px;
 }
 .swiper-pagination {
@@ -945,20 +945,22 @@ padding: 5px 6px 5px 10px;
 .swiper-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
   width: 75%;
 }
-.page-number {
+.swiper1>.page-number {
   top: 90%;
-  right: 7%;
+  right: 6%;
   font-size: 14px;
 }
-.swiper1 .swiper-button-prev,
-.swiper1 .swiper-button-next {
+.swiper1>.swiper-button-prev,
+.swiper1>.swiper-button-next {
   position: absolute;
   top: 97.5% !important;
   font-weight: 900;
   align-items: center;
 }
-
-.swiper1 .swiper-button-prev {
+.swiper-wrapper>.swiper-slide {
+  width: 55%; 
+}
+.swiper1>.swiper-button-prev {
   left: 80% !important;
 }
 .swiper-button-next,
@@ -1001,6 +1003,7 @@ padding: 5px 6px 5px 10px;
   box-sizing: border-box;
   background-size: cover;
 }
+
 .class li.active {
   width: 100%;
   height: calc(700px - 100vw);
@@ -1011,10 +1014,14 @@ padding: 5px 6px 5px 10px;
   position: relative;
   box-sizing: border-box;
 }
+.class li button {
+  width: 55px;
+}
 .c_title {
-  width: 40%;
+  width: 50%;
   position: absolute;
   top: 10px;
+  font-size: 11px;
 }
 .class li div:not(.exp) p {
   width: 40%;
@@ -1027,7 +1034,7 @@ padding: 5px 6px 5px 10px;
   text-align: left;
 }
 .class li div:not(.exp) .btn_wrap {
-  width: 40%;
+  width: 50%;
   position: absolute;
   top: 50px;
   justify-content: space-around;
@@ -1045,10 +1052,12 @@ padding: 5px 6px 5px 10px;
 }
 .exp>p {
   margin: 16px 0;
+  font-size: 9px;
 }
 .exp>.btn_wrap {
-  width: 80%;
+  width: 100%;
 }
+
 #footer {
   display: block;
 }
